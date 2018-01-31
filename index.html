@@ -1,15 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Navajas Marizcal</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
 </head>
+
+<script src="https://use.fontawesome.com/d0f5a9611d.js"></script>
+
+<script>
+    lightbox.option({
+        'albumlabel': "Imagen %1 de %2",
+        'alwaysShowNavOnTouchDevices': true,
+        'wrapAround': true
+    })
+</script>
+
 <body>
-    
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="logo" src="img/logo.png" alt="Navajas Marizcal" width="150px" height="150px">
+                </div>
+                <div class="col-md-12 d-lg-none leyenda">
+                    <p>
+                        20 años de experiencia nos respaldan
+                    </p>
+                    <p>
+                        Fabricadas con acero Alemán chispa roja, para jugar en primer nivel.
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="container">
+                        <!--Telefonos-->
+                        <div class="row">
+                            <ul class="list-inline telefonos float-right">
+                                <li class="list-inline-item li-whatsapp">
+                                    <a href="#">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle fa-stack-1x"></i>
+                                            <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                        33-33-90-4019
+                                    </a>
+                                </li>
+                                <li class="list-inline-item li-whatsapp">
+                                    <a href="#">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle fa-stack-1x"></i>
+                                            <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                        33-12-97-9526
+                                    </a>
+                                </li>
+                                <li class="list-inline-item li-globe ">
+                                    <a href="#">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle fa-stack-1x"></i>
+                                            <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                        01-387-77-80820
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Menu de navegacion-->
+                        <div class=" row menu-bar text-md-right">
+                            <nav class="container" role="menu">
+                                <ul class="menu-list list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="#">Inicio</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#galeria">Galeria</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#contacto">Contacto</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+
+    </header>
+    <div id="main">
+        <div class="container">
+            <div id="carousel-home" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/gallos.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-lg-block">
+                            <h3>
+                                20 años de experiencia nos respaldan
+                            </h3>
+
+                            <div class="sub-caption">
+                                <h2>Fabricadas con acero Alemán chispa roja, para jugar en primer nivel.
+                                </h2>
+                                <h2>Contamos con servicio de reafilado.</h2>
+                                <a href="#contacto" role="button" class="btn btn-secondary">Contactar</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Galeria-->
+            <div class="row margin-top-80" id="galeria">
+                <div class="col-md-12">
+                    <h3 class="titulos">Galeria
+                        <i class="fa fa-camera pull-right" aria-hidden="true"></i>
+                    </h3>
+                    <!--Primer fila-->
+                    <div class="row margin-top-40">
+                        <div class="col-md-3">
+                            <a href="img/navaja-1.jpg" data-lightbox="example-set" data-tittle="Navaja 1">
+                                <img src="img/navaja-1.jpg" alt="Navaja 1" class="img-thumbnail">
+                            </a>
+                            <p>Navaja 1</p>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="img/navaja-2.jpg" data-lightbox="example-set" data-tittle="Navaja 1">
+                                <img src="img/navaja-2.jpg" alt="Navaja 1" class="img-thumbnail">
+                            </a>
+                            <p>Navaja 2</p>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="img/navaja-3.jpg" data-lightbox="example-set" data-tittle="Navaja Tipo V">
+                                <img src="img/navaja-3.jpg" alt="Navaja Tipo V" class="img-thumbnail">
+                            </a>
+                            <p>Navaja Tipo V</p>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="img/navaja-4.jpg" data-lightbox="example-set" data-tittle="Navaja Recta">
+                                <img src="img/navaja-4.jpg" alt="Navaja Recta" class="img-thumbnail">
+                            </a>
+                            <p>Navaja Recta</p>
+                        </div>
+                    </div>
+                    <!--Segunda fila-->
+                    <div class="row ">
+                        <div class="col-md-3">
+                            <a href="img/navaja-5.jpg" data-lightbox="example-set" data-tittle="Navaja Media Luna">
+                                <img src="img/navaja-5.jpg" alt="Navaja Media Luna" class="img-thumbnail">
+                            </a>
+                            <p>Navaja Media Luna</p>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="img/navaja-6.jpg" data-lightbox="example-set" data-tittle="Navaja 1">
+                                <img src="img/navaja-6.jpg" alt="Navaja 1" class="img-thumbnail">
+                            </a>
+                            <p>Navaja 6</p>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="img/navaja-7.jpg" data-lightbox="example-set" data-tittle="Navaja 1">
+                                <img src="img/navaja-7.jpg" alt="Navaja 1" class="img-thumbnail">
+                            </a>
+                            <p>Navaja 7</p>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="img/navaja-8.jpg" data-lightbox="example-set" data-tittle="Navaja 1">
+                                <img src="img/navaja-8.jpg" alt="Navaja 1" class="img-thumbnail">
+                            </a>
+                            <p>Navaja 8</p>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-3">
+                            <a href="img/navaja-9.jpg" data-lightbox="example-set" data-tittle="Navaja 1">
+                                <img src="img/navaja-9.jpg" alt="Navaja 1" class="img-thumbnail">
+                            </a>
+                            <p>Navaja 9</p>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="img/navaja-10.jpg" data-lightbox="example-set" data-tittle="Navaja 1">
+                                <img src="img/navaja-10.jpg" alt="Navaja 1" class="img-thumbnail">
+                            </a>
+                            <p>Navaja 10</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--Contacto-->
+            <div class="row margin-top-80 " id="contacto">
+                <div class="col-md-6">
+                    <h3>
+                        <b>Visitanos</b>
+                        <i class="fa fa-facebook-official pull-right" aria-hidden="true"></i>
+                    </h3>
+
+                    <p>Visitanos en Facebook
+                        <a href="https://business.facebook.com/Navajas-Mariscal-865730820206272/" target="_blank">Navajas Marizcal</a>
+                    </p>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fbusiness.facebook.com%2FNavajas-Mariscal-865730820206272%2F&tabs=timeline&width=500&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+                        width="800" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+                </div>
+
+                <div class="col-md-6">
+                    <h3>
+                        <b>Contactanos</b>
+                        <i class="fa fa-user pull-right" aria-hidden="true"></i>
+                    </h3>
+                    <!--Telefonos de contacto-->
+                    <ul class=" telefonos float-left">
+                        <li class=" li-whatsapp">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-1x"></i>
+                                    <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
+                                </span>
+                                33-33-90-4019
+                            </a>
+                        </li>
+                        <li class=" li-whatsapp">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-1x"></i>
+                                    <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
+                                </span>
+                                33-12-97-9526
+                            </a>
+                        </li>
+                        <li class=" li-globe ">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-1x"></i>
+                                    <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
+                                </span>
+                                01-387-77-80820
+                            </a>
+                        </li>
+                        <li class=" li-globe ">
+                            <a href="mailto:Eltonynavajas@gmail.com">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-1x"></i>
+                                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                                </span>
+                                eltonynavajas@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>
+                        <b>Navajas Marizcal &copy;2018- Todos los derechos reservados. Sitio diseñado por
+                            <a href="mailto:ramonpr92@hotmail.com">Ramón Pérez</a>
+                        </b>
+                    </p>
+                </div>
+                <div class="col-sm-6 text-md-right">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="#">Inicio</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#galeria">Galeria</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="mailto:Eltonynavajas@gmail.com">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>-->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/lightbox.js"></script>
 </body>
+
 </html>

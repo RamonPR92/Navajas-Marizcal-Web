@@ -1,0 +1,221 @@
+/*General*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+/*Header*/
+
+header{
+    background: #000000;
+    padding-top: 25px;
+}
+/*Logo principal*/
+.logo{
+    padding-bottom: 20px;
+}
+
+/*Leyenda superior*/
+.leyenda p{
+    color: #FFFFFF;
+}
+.leyenda{
+    display: inline;
+}
+/*Numeros de Telefono*/
+/*Telefonos*/
+.telefonos li{
+    list-style: none;
+}
+.telefonos li a{
+    color: #FFFFFF;
+}
+.telefonos li a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/*Logo de whatsapp*/
+.li-whatsapp a:hover{
+    color:  #34AF23;
+ }
+ .li-whatsapp .fa-circle{
+     color:#34AF23;
+ }
+ /*Logo del planeta*/
+.li-globe .fa-circle{
+    color: #581111;
+}
+
+ 
+/*Bar Menu*/
+.menu-bar{
+    background: #000000;
+}
+
+.menu-list{
+    margin-bottom: 0;
+}
+
+.menu-list a{
+    color: #FAFBFC;
+    font-size: 20;
+}
+
+.menu-list a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*.menu-list > li:not(:last-child){
+    padding-right: 20px;
+} */
+.menu-list > li{
+    padding: 10px 20px;
+} 
+.menu-list li:hover{
+    background: rgb(91, 92, 58);
+}
+/*Content*/
+
+/*
+Main
+*/
+
+#main{
+    background: #581111;
+}
+#main > .container{
+    box-shadow: 0 7px 18px rgba(0, 0, 0, 0.514);
+}
+
+#main > .container{
+    background: #000000;
+}
+#carousel-home{
+    margin-bottom: 50px;
+}
+
+.carousel-caption{
+    background: rgba(0, 0, 0, 0.514); 
+    width: 50%;
+    height: 200px;
+    left: 0;
+    top:20%;
+    padding: 20px
+}
+
+.carousel-caption h2{
+    font-size: 20px;
+    text-align: left;
+}
+
+.carousel-caption .sub-caption {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.carousel-caption .sub-caption p{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.carousel-caption .sub-caption a{
+    float: right;
+    background: #000000;
+    color: #FFFFFF;
+    padding: 0 20px;
+    font-size: 14px;
+    margin-right: 20px;
+    border-radius: 0;
+}
+
+/*Galeria */
+#galeria p{
+    color: #FFFFFF;
+}
+.titulos{
+    color: #ffffff;
+}
+h3{
+    font-size: 24px;
+    border-bottom: 2px rgb(254, 255, 255) solid;
+}
+h3 i{
+    color: #6d2121;
+}
+
+/*Contacto y ubicacion*/
+#contacto p{
+    color: #FFFFFF;
+}
+
+#contacto h3{
+    color: #FFFFFF;
+}
+
+#contacto a{
+    color: #ffffff;
+}
+#contacto a:hover{
+    color: #6d2121;
+    text-decoration: none;
+}
+/*Helpers*/
+.margin-top-80{
+    margin-top: 80px;
+}
+
+.margin-top-40{
+    margin-top: 40px;
+}
+
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+
+/*footer siderbar*/
+.sidebar-zone{
+    background: #cad0d4;
+    padding: 20px 0px;
+}
+
+.sidebar-zone h4{
+    border-bottom: 2px rgb(179, 185, 189) solid;
+    padding-bottom: 10px;
+
+}
+
+.sidebar-zone a{
+    font-size: 16px; 
+    margin-bottom: 18px;
+    display: block;
+    color: #000000;
+    font-weight: bold;
+}
+
+/*Footer*/
+
+footer{
+    background: #000000;
+    color: #ffffff;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+footer ul{
+    margin-bottom: 0;
+}
+
+footer a{
+ color: #ffffff;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: #C3D0DB;
+}
